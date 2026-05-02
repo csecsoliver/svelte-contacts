@@ -1,43 +1,4 @@
-# sv
+# Contacts made in svelte
+The contact manager I previously made in C ported to sveltekit. The guide called for using fetch and json and stuff, but in my opinion that makes using svelte completetely redundant, so I did it with loading functions and actions. I also learned about remote function calling, but decided not to use it in the end.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-bun x sv@0.15.2 create --template minimal --types ts --install bun ./
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-# svelte-contacts
+You can add, remove and edit contacts, and I was too lazy to write sql, so I made editing delete the existing record and create a new one.

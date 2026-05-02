@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: hotpink;
+    letter-spacing: 5px;
+    word-spacing: 0.67px;
+    
+    
+}
+/*main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+div, input, button, form, a {
+    text-decoration: none;
+    border: 0.2rem solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    margin: 0.5rem;
+    background-color: antiquewhite;
+    color: darkorange;
+    font-size: 20.67px;
+    border: 2px dashed darkred;
+}
+a, button {
+    width: fit-content;
+    display: inline-block;
+}
+a:hover, button:hover {
+    cursor: pointer;
+}
